@@ -1,7 +1,15 @@
+body {
+	width: 100%;
+}
 
+<<<<<<< HEAD
 
 .fond{
 	background: <img "http://placehold.it/350x150"> no-repeat center center;
+=======
+.fond {
+	background-image: url("http://placehold.it/350x150") no-repeat center center;
+>>>>>>> ed280e7a5c7b508c9db1ec6cad01681ab761c755
 	position: fixed;  /* sert a figer le fond en haut de la page*/
 	width: 100%;   /* le fond va occuper toute la largeur de l'ecran */
 	height: 300px; /* IMPORTANT mettre ici la même hauteur que le jumbotron */
@@ -29,7 +37,55 @@
 
 
 footer {
+	height: 400px;
+	color: #484848;
+	border-top: 1px solid #dce0e0;
+	padding-top: 48px;
 
-	border: 1px solid black;
-	height: 500px;
+	
 }
+
+section {
+		
+}
+
+aside {
+	
+}
+
+li {
+	list-style-type:none;
+	
+}
+
+.container {
+	display: inline-flex;
+	justify-content: space-around;
+	margin: auto;
+	padding: auto;
+	
+	
+}
+
+.dropdown {
+	padding-bottom: 10px;
+}
+
+.bas {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	border-top: 1px solid #dce0e0;
+	padding-top: 48px;
+	
+}
+
+.logos {
+
+}
+
+.liste {
+	display: inline-flex;
+}
+
+
