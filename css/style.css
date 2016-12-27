@@ -1,5 +1,38 @@
 footer {
 
 	border: 1px solid black;
-	height: 500px;
+	height: 400px;
+	color: #484848;
+	border-top: 1px solid #dce0e0;
+	padding-top: 48px;
+
+	
 }
+
+section {
+	border: 1px solid green;
+	
+
+}
+
+aside {
+	border: 1px solid yellow;
+
+}
+
+li {
+	list-style-type:none;
+	
+}
+
+.container {
+	border: 1px solid red;
+	display: inline-flex;
+	justify-content: space-around;
+	
+}
+
+.dropdown {
+	padding-bottom: 10px;
+}
+
