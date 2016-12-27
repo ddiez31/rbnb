@@ -1,7 +1,7 @@
 
 
 .fond{
-	background: <img "http://placehold.it/350x150"> no-repeat center center;
+	background: <img src="http://placehold.it/350x150"> no-repeat center center;
 	position: fixed;  /* sert a figer le fond en haut de la page*/
 	width: 100%;   /* le fond va occuper toute la largeur de l'ecran */
 	height: 300px; /* IMPORTANT mettre ici la même hauteur que le jumbotron */
