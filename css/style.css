@@ -1,5 +1,68 @@
+
+
+.fond{
+	background: <img src="http://placehold.it/350x150"> no-repeat center center;
+	position: fixed;  /* sert a figer le fond en haut de la page*/
+	width: 100%;   /* le fond va occuper toute la largeur de l'ecran */
+	height: 300px; /* IMPORTANT mettre ici la même hauteur que le jumbotron */
+	top:0;
+	left:0;
+	z-index: -1;  /* sert a mettre l'image jumbotron en arriére plan */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
 
 	border: 1px solid black;
-	height: 500px;
+	height: 400px;
+	color: #484848;
+	border-top: 1px solid #dce0e0;
+	padding-top: 48px;
+
+	
 }
+
+section {
+	border: 1px solid green;
+	
+
+}
+
+aside {
+	border: 1px solid yellow;
+
+}
+
+li {
+	list-style-type:none;
+	
+}
+
+.container {
+	border: 1px solid red;
+	display: inline-flex;
+	justify-content: space-around;
+	
+}
+
+.dropdown {
+	padding-bottom: 10px;
+}
+
